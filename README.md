@@ -1,0 +1,75 @@
+# SpotiLy
+Searches and displays lyrics of the currently playing track on spotify
+
+________________
+
+## Known Bugs/Improvemenets
+- [ ] When searching for lyrics (using the genius api), song changes are not reflected immidiately
+- [ ] The media controls are only for spotify premium (i think). Change so that it uses computer media, not spotify media- configurable
+- [ ] The media controls are not debounced. Double/Triple++ clicking stacks up requests instead of having a buffer
+- [ ] Removing parentheses from the song names
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- - 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- - 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- - 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- - 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- - 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- - 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+- 123
+## How to login

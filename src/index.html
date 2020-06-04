@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SpotiLy</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="moderne.css">
+    <!-- <script src="index.js"></script> -->
+  </head>
+  <div id="header">
+    <div id="curr_song"> Loading... </div>
+    <div id="line1"></div>
+    <div id="line2"></div>
+    <div id="artist"> Loading... </div>
+  </div>
+
+  <div id="menubar">
+    <button id="close">&#10005;</button>
+    <button id="minimize">−</button>
+    <button id="others" onclick="menubar.toggle()">&#9776;</button>
+    <button id="refresh" onclick="refresh()">&#128472;</button>
+  </div>
+  
+  <!-- <div><img id="albumart" src=""></div> -->
+
+  <div id="input_keys">
+    <div id="double_check">You sure? Please double check!</div>
+    <input id="client_id" type="text" class="input_key_text" placeholder="client_id"><br>
+    <input id="client_secret" type="text" class="input_key_text" placeholder="client_secret"><br>
+    <div id="error_no_input">Please enter something first!</div>
+    <button id="submit_keys" onclick="submit_keys()">Submit</button>
+    <div id="yesno">
+      <button id="no" onclick="shit_go_back()">Shit, no</button>
+      <br><button id="yes" onclick="submit_keys()">Yep, I take full responsibility</button>
+    </div>
+    <button id="help_keys" onclick="open_help()">Need help getting started?</button>
+  </div>
+
+  <div id="dropdown">
+    <button class="menu_buttons" onclick="logout()">Logout</button>
+    <br><button class="menu_buttons" onclick="open_help()">Help</button>
+  </div>
+
+  <!-- <div class="prompt">
+    Was there an error in the browser?
+    (example: INVALID_CLIENT: Invalid client)
+    <div id="approve_buttons">
+      <button id="reload_app" onclick="reload_app()">Error? Reload app</button>
+      <button id="no_error" onclick="no_error()">Continue</button>
+    </div>
+  </div> -->
+
+  <body>
+    
+    <div id="_header">
+      <div id="_curr_song"> Loading... </div>
+      <div id="_line1"></div>
+      <div id="_line2"></div>
+      <div id="_artist"> Loading... </div>
+    </div>
+    <div id="lyrics"> Loading...</div>
+  </body>
+
+  <div id="control">
+    <button id="prev">Previous</button>
+    <button id="toggle">Toggle Playback</button>
+    <button id="next">Next</button>
+  </div>
+
+
+  
+  <script src="spotify_auth.js"></script>
+  <script src="get_curr_details.js"></script>
+  <script type="text/javascript">
+    window.onload = init_all;
+  </script>
+
+</html>
