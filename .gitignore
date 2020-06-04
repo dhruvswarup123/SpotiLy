@@ -1,6 +1,7 @@
 # Keys
 keys.config
 _keys.config
+.login_cache
 
 # Logs
 logs
