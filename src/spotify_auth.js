@@ -12,8 +12,9 @@ const fs = require("fs")
 var request = require('request'); // "Request" library
 var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
+const path = require('path');
 
-var LOGIN_CACHE = ".login_cache";
+var LOGIN_CACHE = path.resolve(__dirname, '.login_cache');
 var redirect_uri = "http://localhost:8000/callback";
 var access_token;
 var refresh_token;

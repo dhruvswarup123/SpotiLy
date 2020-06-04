@@ -1,15 +1,14 @@
+const remote = require('electron').remote;
 
-var LOGIN_CACHE = ".login_cache";
-var LYRICS_CACHE = ".lyrics_cache";
-var KEYS_CONFIG = "keys.config"
+var LOGIN_CACHE = path.resolve(__dirname, '.login_cache');
+var LYRICS_CACHE = path.resolve(__dirname, '.lyrics_cache');
+var KEYS_CONFIG = path.resolve(__dirname, 'keys.config');
 var access_token = null, refresh_token = null;
 var lyrics_cache = {};
 
 var client_id;
 var client_secret;
 
-const remote = require('electron').remote;
-const path = require('path');
 
 var menubar = {
     status: false,
@@ -48,7 +47,7 @@ function init_all(){
     // Try to get the client id and secret
     try {
         if(fs.existsSync(KEYS_CONFIG)) {
-            let auth_details = JSON.parse(fs.readFileSync("keys.config"));
+            let auth_details = JSON.parse(fs.readFileSync(KEYS_CONFIG));
             client_id = auth_details.client_id;
             client_secret = auth_details.client_secret;
         }
