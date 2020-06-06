@@ -40,18 +40,18 @@ This section explains how to obtain the *client ID* and the *client secret* valu
 
 1. On starting the app, you will be prompted to enter the client_id and client_secret values. See [this](#client) to get these values
 
-<img src="resources/login.png" width="250px" style="margin-left:20%">
+<img src="resources/login.png" width="250px">
 
 <!-- ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 Image 1: Page for entering *client ID* and a *client secret* values. -->
 
 1. Then you be asked to confirm that these are indeed the right values. 
-    a. If you still enter the wrong values, the loading page will just be stuck as shown. 
-    b. To re-enter the values, select "logout" from the hamburger menu
+    1. If you still enter the wrong values, the loading page will just be stuck as shown. 
+    2. To re-enter the values, select "logout" from the hamburger menu
 
-<img src="resources/loading.png" width="250px" style="margin-left:20%">
+<img src="resources/loading.png" width="250px">
 <br>
-<img src="resources/hamburger.png" width="500px" style="margin-left:20%">
+<img src="resources/hamburger.png" width="500px">
 
 1. You will now be redirected to the spotify login page from your browser. Login with your spotify account.
 2. Dont forget to open spotify and play a song! This can be on any device with the same account.
@@ -73,16 +73,16 @@ The Spotify API requires the use of a *client ID* and a *client secret* to verif
    2. App Description: "Get lyrics on an Electron-based GUI for the currently playing song on Spotify using the Genius API. (https://github.com/dhruvswarup123/SpotiLy)"
 2. Click "Create"
 3. In the app page, click settings.
-<img src="resources/spotify_dash_main.png" width="500px" style="margin-left:20%">
+<img src="resources/spotify_dash_main.png" width="500px">
 
 
 1. In the section marked "Redirect URIs", paste `http://localhost:8000/callback`, and click add.
-<img src="resources/spotify_dash_setting.png" width="300px" style="margin-left:20%">
+<img src="resources/spotify_dash_setting.png" width="300px">
 
 
 1. Click "Save"
 2.  Now copy and paste the client ID, and the client secret (after clicking "show client secret") into the app.
-<img src="resources/spotify_dash_cs.png" width="500px" style="margin-left:20%">
+<img src="resources/spotify_dash_cs.png" width="500px">
     
 <a name="trouble"></a>
 ### c. Troubleshooting
