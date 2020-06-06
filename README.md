@@ -38,21 +38,26 @@ This section explains how to obtain the *client ID* and the *client secret* valu
  
 <a name="usage"></a>
 ### a. How to use?
+
 1. On starting the app, you will be prompted to enter the client_id and client_secret values. See [this](#client) to get these values
+
+<center><img src="resources/login.png" width="250px"></center>
 
 <!-- ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 Image 1: Page for entering *client ID* and a *client secret* values. -->
 
-2. Then you be asked to confirm that these are indeed the right values. 
-   If you still enter the wrong values, the loading page will just be stuck as shown. 
-   // image
-   To re-enter the values, select "logout" from the hamburger menu
-   // iamge here
+1. Then you be asked to confirm that these are indeed the right values. 
+    a. If you still enter the wrong values, the loading page will just be stuck as shown. 
+    b. To re-enter the values, select "logout" from the hamburger menu
 
-3. You will now be redirected to the spotify login page from your browser. Login with your spotify account.
-4. Dont forget to open spotify and play a song! This can be on any device with the same account.
-5. The aapp will now automatically load lyrics and display them.
-6. The song control buttons can be used to change tracks as well.
+<center><img src="resources/loading.png" width="250px"></center>
+<br>
+<center><img src="resources/hamburger.png" width="500px"></center>
+
+1. You will now be redirected to the spotify login page from your browser. Login with your spotify account.
+2. Dont forget to open spotify and play a song! This can be on any device with the same account.
+3. The aapp will now automatically load lyrics and display them.
+4. The song control buttons can be used to change tracks as well.
 // Image here
 
 <a name="client"></a>
@@ -62,21 +67,29 @@ The Spotify API requires the use of a *client ID* and a *client secret* to verif
 1. Open the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/)
 2. Log in with your spotify account.
 3. Click the "create an app" button.
-4. The app name and description can be filled however you desire, but this is what I recommend: 
+<center><img src="resources/spotify_dash_home_nologin.png" width="500px"></center>
+
+1. The app name and description can be filled however you desire, but this is what I recommend: 
    1. App Name: "SpotiLy"
    2. App Description: "Get lyrics on an Electron-based GUI for the currently playing song on Spotify using the Genius API. (https://github.com/dhruvswarup123/SpotiLy)"
-5. Click "Create"
-6. In the app page, click settings.
-7. In the section marked "Redirect URIs", paste `http://localhost:8000/callback`, and click add.
-8. Click "Save"
-9. Now copy and paste the client ID, and the client secret (after clicking "show client secret") into the app.
-10. VOILA!
+2. Click "Create"
+3. In the app page, click settings.
+<center><img src="resources/spotify_dash_main.png" width="500px"></center>
+
+
+1. In the section marked "Redirect URIs", paste `http://localhost:8000/callback`, and click add.
+<center><img src="resources/spotify_dash_setting.png" width="300px"></center>
+
+
+1. Click "Save"
+2.  Now copy and paste the client ID, and the client secret (after clicking "show client secret") into the app.
+<center><img src="resources/spotify_dash_cs.png" width="500px"></center>
     
 <a name="trouble"></a>
 ### c. Troubleshooting
 
 <a name="improvement"></a>
-## Scope for Imporovement
+## Scope for Improvement
 
 
 <a name="contributors"></a>
