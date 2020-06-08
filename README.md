@@ -90,14 +90,12 @@ The Spotify API requires the use of a *client ID* and a *client secret* to verif
    1. Add open on hover
    2. Close menu on clicking any div outside the menu. 
 
-<a name="contributors"></a>
-## Author
-<p align="center" style="float: left; margin-right: 20px"><img src="https://avatars3.githubusercontent.com/u/13020678?s=460&u=6a21ac1363c7c79c12f87a53bc4af6be4f6616f2&v=4" width="120px"></p>
-
 <a name="screenshots"></a>
 ## Screenshots
 
-
+<a name="contributors"></a>
+## Author
+<p align="center" style="float: left; margin-right: 20px"><img src="https://avatars3.githubusercontent.com/u/13020678?s=460&u=6a21ac1363c7c79c12f87a53bc4af6be4f6616f2&v=4" width="120px"></p>
 
 ### Dhruv Swarup
 [Github](https://github.com/dhruvswarup123) <br>
