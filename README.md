@@ -1,3 +1,4 @@
+<a name="top"></a>
 # SpotiLy
 Get lyrics on an Electron-based GUI for the currently playing song on Spotify using the Genius API.
 
@@ -13,8 +14,8 @@ Get lyrics on an Electron-based GUI for the currently playing song on Spotify us
 6. [ Screenshots ](#screenshots)
 
 
-<a name="download"></a>
-## Downloads
+<a name="download"></a> 
+## Downloads [&#8679;](#top)
 The app is available to download on Windows, MacOS, and Linux.
 
 Download the installers from here:
@@ -23,7 +24,7 @@ Download the installers from here:
 3. [Linux]()
 
 <a name="cls"></a>
-## Command Line Setup
+## Command Line Setup [&#8679;](#top)
 
 To run the app from the command line, npm must be installed (installation instructions [here](https://www.npmjs.com/get-npm))
 ```
@@ -34,11 +35,11 @@ $ npm start
 ```
 
 <a name="starting"></a>
-## Getting Started
+## Getting Started [&#8679;](#top)
 This section explains how to start and use the app, including how to obtain the *client ID* and the *client secret* values needed to login to Spotify's API.
  
 <a name="usage"></a>
-### a. How to use?
+### a. How to use? [&#8679;](#top)
 
 1. On starting the app, you will be prompted to enter the client_id and client_secret values. See [this](#client) to get these values
 <p align="center"><img src="resources/login.png" width="250"\></p>
@@ -57,7 +58,7 @@ This section explains how to start and use the app, including how to obtain the 
 6. The song control buttons can be used to change tracks as well.
 
 <a name="client"></a>
-### b. Getting Client ID and Client Secret
+### b. Getting Client ID and Client Secret [&#8679;](#top)
 The Spotify API requires the use of a *client ID* and a *client secret* to verify the app. Because I am a poor college student, I did not have money to spend on a server😐. So, here we are. This is, however, a one-time deal. Once you have loaded these into the app, you will no longer have to do it again!
 
 1. Open the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/)
@@ -82,7 +83,7 @@ The Spotify API requires the use of a *client ID* and a *client secret* to verif
 <p align="center"><img src="resources/spotify_dash_cs.png" width="500px"></p>
 
 <a name="improvement"></a>
-## Scope for Improvement
+## Scope for Improvement [&#8679;](#top)
 (This section includes known bugs in the program)
 1. Adding synced lyrics
    1. This involves purchaing a plan from MusixMatch for access to the database with the timestamped lyrics
@@ -91,10 +92,10 @@ The Spotify API requires the use of a *client ID* and a *client secret* to verif
    2. Close menu on clicking any div outside the menu. 
 
 <a name="screenshots"></a>
-## Screenshots
+## Screenshots [&#8679;](#top)
 
 <a name="contributors"></a>
-## Author
+## Author [&#8679;](#top)
 <img src="https://avatars3.githubusercontent.com/u/13020678?s=460&u=6a21ac1363c7c79c12f87a53bc4af6be4f6616f2&v=4" width="120px">
 
 ### Dhruv Swarup
