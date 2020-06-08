@@ -50,15 +50,9 @@ This section explains how to start and use the app, including how to obtain the 
 1. On starting the app, the user will be prompted to enter the client_id and client_secret values. (See [this](#client))
 <p align="center"><img src="resources/login.png" width="250"\></p>
 
-2. If the wrong values are entered, the loading page will be stuck as shown. To re-enter the values, select "logout" from the hamburger menu
-
-<p align="center"><img src="resources/loading.png" width="250px"></p>
-<br>
-<p align="center"><img src="resources/hamburger.png" width="500px"></p>
-
-3. The user will now be redirected to the spotify login page.
-4. The app will now automatically load lyrics and display them, obviously, given that a song is indeed playing.
-5. The song control buttons can be used to change tracks.
+2. The user will now be redirected to the spotify login page.
+3. The app will now automatically load lyrics and display them, obviously, given that a song is indeed playing.
+4. The song control buttons can be used to change tracks.
 
 <a name="client"></a>
 ### b. Getting Client ID and Client Secret [&#8679;](#top)
@@ -82,6 +76,14 @@ The Spotify API requires the use of a *client ID* and a *client secret* to verif
 8. Click "Save"
 9.  Now copy and paste the client ID, and the client secret (after clicking "show client secret") into the app.
 <p align="center"><img src="resources/spotify_dash_cs.png" width="500px"></p>
+
+<a name="trouble"></a>
+### c. Troubleshooting [&#8679;](#top)
+ If the wrong values for client id or client secret are entered, the loading page will be stuck as shown. To re-enter the values, select "logout" from the hamburger menu.
+
+<p align="center"><img src="resources/loading.png" width="250px"></p>
+<br>
+<p align="center"><img src="resources/hamburger.png" width="500px"></p>
 
 <a name="improvement"></a>
 ## Scope for Improvement [&#8679;](#top)
