@@ -43,7 +43,7 @@ $ npm run make
 <a name="starting"></a>
 ## Getting Started [&#8679;](#top)
 This section explains how to start and use the app, including how to obtain the *client ID* and the *client secret* values needed to login to Spotify's API.
- 
+
 <a name="usage"></a>
 ### a. How to Use? [&#8679;](#top)
 
@@ -73,7 +73,7 @@ The Spotify API requires the use of a *client ID* and a *client secret* to verif
    1. App Name: "SpotiLy"
    2. App Description: "Get lyrics on an Electron-based GUI for the currently playing song on Spotify using the Genius API. (https://github.com/dhruvswarup123/SpotiLy)"
 5. Click "Create"
-6. In the app page, click settings.
+6. In the app page, click on "edit settings".
 <p align="center"><img src="resources/spotify_dash_main.png" width="500px"></p>
 
 7. In the section marked "Redirect URIs", paste `http://localhost:8000/callback`, and click add.
@@ -87,7 +87,7 @@ The Spotify API requires the use of a *client ID* and a *client secret* to verif
 ## Scope for Improvement [&#8679;](#top)
 (This section includes known bugs in the program)
 1. Adding synced lyrics
-   1. This involves purchaing a plan from MusixMatch for access to the database with the timestamped lyrics
+   1. This involves purchasing a plan from MusixMatch for access to the database with the timestamped lyrics
 2. Hamburger Menu
    1. Add open on hover
    2. Close menu on clicking any div outside the menu. 
