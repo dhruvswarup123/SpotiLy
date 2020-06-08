@@ -9,9 +9,8 @@ Get lyrics on an Electron-based GUI for the currently playing song on Spotify us
    2. [ Getting Client ID and Client Secret ](#client)
    3. [ Troubleshooting ](#trouble)
 4. [ Scope for Improvement ](#improvement)
-5. [ Screenshots ](#screenshots)
-6. [ Contributors ](#contributors)
-
+5. [ Contributors ](#contributors)
+6. [ Screenshots ](#screenshots)
 
 
 <a name="download"></a>
@@ -26,38 +25,36 @@ Download the installers from here:
 <a name="cls"></a>
 ## Command Line Setup
 
-To run the app from the command line, 
-1. Download Node Package Manager (npm) utility
-2. Run `npm install` in the base directory of the cloned repository to install the required NodeJs packages
-3.  Run `npm start` to run the application 
+To run the app from the command line, npm must be installed (installation instructions [here](https://www.npmjs.com/get-npm))
+```
+$ git clone https://github.com/dhruvswarup123/SpotiLy.git
+$ cd SpotiLy
+$ npm install 
+$ npm start
+```
 
 <a name="starting"></a>
 ## Getting Started
-This section explains how to obtain the *client ID* and the *client secret* values to run the app. In case you run into some problems, I have provided some troubleshooting techniques as well!
+This section explains how to start and use the app, including how to obtain the *client ID* and the *client secret* values needed to login to Spotify's API.
  
 <a name="usage"></a>
 ### a. How to use?
 
 1. On starting the app, you will be prompted to enter the client_id and client_secret values. See [this](#client) to get these values
+<p align="center"><img src="resources/login.png" width="250"\></p>
 
-<img src="resources/login.png" width="250px">
-
-<!-- ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-Image 1: Page for entering *client ID* and a *client secret* values. -->
-
-1. Then you be asked to confirm that these are indeed the right values. 
+2. Then you be asked to confirm that these are indeed the right values. 
     1. If you still enter the wrong values, the loading page will just be stuck as shown. 
     2. To re-enter the values, select "logout" from the hamburger menu
 
-<img src="resources/loading.png" width="250px">
+<p align="center"><img src="resources/loading.png" width="250px"></p>
 <br>
-<img src="resources/hamburger.png" width="500px">
+<p align="center"><img src="resources/hamburger.png" width="500px"></p>
 
-1. You will now be redirected to the spotify login page from your browser. Login with your spotify account.
-2. Dont forget to open spotify and play a song! This can be on any device with the same account.
-3. The aapp will now automatically load lyrics and display them.
-4. The song control buttons can be used to change tracks as well.
-// Image here
+3. You will now be redirected to the spotify login page from your browser. Login with your spotify account.
+4. Dont forget to open spotify and play a song! This can be on any device with the same account.
+5. The aapp will now automatically load lyrics and display them.
+6. The song control buttons can be used to change tracks as well.
 
 <a name="client"></a>
 ### b. Getting Client ID and Client Secret
@@ -66,33 +63,42 @@ The Spotify API requires the use of a *client ID* and a *client secret* to verif
 1. Open the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/)
 2. Log in with your spotify account.
 3. Click the "create an app" button.
-<img src="resources/spotify_dash_home_nologin.png" width="500px" style="margin-left:20%">
+<p align="center"><img src="resources/spotify_dash_home_nologin.png" width="500px"></p>
 
-1. The app name and description can be filled however you desire, but this is what I recommend: 
+4. The app name and description can be filled however you desire, but this is what I recommend: 
    1. App Name: "SpotiLy"
    2. App Description: "Get lyrics on an Electron-based GUI for the currently playing song on Spotify using the Genius API. (https://github.com/dhruvswarup123/SpotiLy)"
-2. Click "Create"
-3. In the app page, click settings.
-<img src="resources/spotify_dash_main.png" width="500px">
+5. Click "Create"
+6. In the app page, click settings.
+<p align="center"><img src="resources/spotify_dash_main.png" width="500px"></p>
 
 
-1. In the section marked "Redirect URIs", paste `http://localhost:8000/callback`, and click add.
-<img src="resources/spotify_dash_setting.png" width="300px">
+7. In the section marked "Redirect URIs", paste `http://localhost:8000/callback`, and click add.
+<p align="center"><img src="resources/spotify_dash_setting.png" width="300px"></p>
 
 
-1. Click "Save"
-2.  Now copy and paste the client ID, and the client secret (after clicking "show client secret") into the app.
-<img src="resources/spotify_dash_cs.png" width="500px">
-    
-<a name="trouble"></a>
-### c. Troubleshooting
+8. Click "Save"
+9.  Now copy and paste the client ID, and the client secret (after clicking "show client secret") into the app.
+<p align="center"><img src="resources/spotify_dash_cs.png" width="500px"></p>
 
 <a name="improvement"></a>
 ## Scope for Improvement
-
+(This section includes known bugs in the program)
+1. Adding synced lyrics
+   1. This involves purchaing a plan from MusixMatch for access to the database with the timestamped lyrics
+2. Hamburger Menu
+   1. Add open on hover
+   2. Close menu on clicking any div outside the menu. 
 
 <a name="contributors"></a>
-## Contributors
+## Author
+<p align="center" style="float: left; margin-right: 20px"><img src="https://avatars3.githubusercontent.com/u/13020678?s=460&u=6a21ac1363c7c79c12f87a53bc4af6be4f6616f2&v=4" width="120px"></p>
 
 <a name="screenshots"></a>
 ## Screenshots
+
+
+
+### Dhruv Swarup
+[Github](https://github.com/dhruvswarup123) <br>
+[LinkedIn](https://www.linkedin.com/in/dhruv-s-b25727135/)
