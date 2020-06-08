@@ -175,7 +175,7 @@ function wait_till_access(){
     // use the access token to access the Spotify Web API
     request.get(options, function(error, response, data) {
         if ([400, 401, 403, 404].includes(response.statusCode)){
-            console.log("logging in againn")
+            console.log("logging in again")
             login_spotify();
         }
 
