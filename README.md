@@ -18,7 +18,7 @@ Get lyrics on an Electron-based GUI for the currently playing song on Spotify us
 The app is available to download on Windows.
 
 Download the installers from here:
-1. [Windows](https://drive.google.com/file/d/1wpN5bZ-9C2sd6shu9DUtnXUxGfiExJv3/view?usp=sharing)
+1. [Windows](https://drive.google.com/file/d/1gLJlhgQV0NkxI42YzV7oeuZ_UcnL7uFr/view?usp=sharing)
 2. MacOS - coming soon
 3. Linux - coming soon
 
