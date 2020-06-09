@@ -21,7 +21,7 @@ const createWindow = () => {
     y: Math.round(currScreenDim.height - height), //Math.round(currScreenDim.height/2 - height/2),
     frame: false,
     backgroundColor: '#252525',
-    alwaysOnTop: true,
+    // alwaysOnTop: true,
     resizable: true,
     //transparent: true,
     
